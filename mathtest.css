@@ -1,0 +1,35 @@
+h1 {
+    color: orange;
+    font-family: 'Hahmlet', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+p {
+    color: purple;
+    font-family: 'Hahmlet', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+    background-color: skyblue;
+
+    color: white;
+    font-size: 18pt;
+
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    height: 100px;
+
+  }
