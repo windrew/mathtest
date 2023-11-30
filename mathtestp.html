@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<html>
+<head lang = "ko">
 </head>
 <body>
     <style>
@@ -178,7 +179,7 @@
                                 </div>
                                 </div>
                                 <div style='background-color: whitesmoke; padding: 20px 20px 20px 20px; margin-top: 15px;'>
-                                    <div style="font-weight: bolder; display: flex; justify-content: center; align-items: center;">문제 9 : f(x) = 1 + x + x² + ...일때 f(1)의 값은?</div>
+                                    <div style="font-weight: bolder; display: flex; justify-content: center; align-items: center;">문제 9 : f(x) = 1 + x + x² + ...일때 f(0.5)의 값은?</div>
                                     <br>
                                     <div style="list-style: none;">
                                         <div style="display: flex; justify-content: center; align-items: center;">
@@ -188,10 +189,10 @@
                                             <li><label for="Q9_2"><input type="radio" name="Q9" id="Q" value="">π/2</label></li>
                                         </div>
                                         <div style="display: flex; justify-content: center; align-items: center;">
-                                            <li><label for="Q9_3"><input type="radio" name="Q9" id="Q" value="">1</label></li>
+                                            <li><label for="Q9_3"><input type="radio" name="Q9" id="Q" value="1">2</label></li>
                                         </div>
                                         <div style="display: flex; justify-content: center; align-items: center;">
-                                            <li><label for="Q9_4"><input type="radio" name="Q9" id="Q" value="1">e</label></li>
+                                            <li><label for="Q9_4"><input type="radio" name="Q9" id="Q" value="">e</label></li>
                                         </div>
                                         <div style="display: flex; justify-content: center; align-items: center;">
                                             <li><label for="Q9_5"><input type="radio" name="Q9" id="Q" value="">π</label></li>
@@ -199,7 +200,7 @@
                                     </div>
                                     </div>
                                     <div style='background-color: whitesmoke; padding: 20px 20px 20px 20px; margin-top: 15px;'>
-                                        <div style="font-weight: bolder; display: flex; justify-content: center; align-items: center;">문제 10 : f(x) = 1 - x/2! + x²/4! - ... 일때 f(π²)?</div>
+                                        <div style="font-weight: bolder; display: flex; justify-content: center; align-items: center;">문제 10 : f(x) = 1 - x/2! + x²/4! - ... 일때 f(√π)?</div>
                                         <br>
                                         <div style="list-style: none;">
                                             <div style="display: flex; justify-content: center; align-items: center;">
@@ -224,7 +225,7 @@
                 var x = 0;
                 var ans = 0;
                 var score = [3,3,3,4,6,9,11,17,21,23]
-            const lst = ['Q1','Q2','Q3','Q4','Q5','Q6','Q7','Q8','Q9','Q10']
+                const lst = ['Q1','Q2','Q3','Q4','Q5','Q6','Q7','Q8','Q9','Q10']
                 for(var i=0;i<lst.length;i++)
                 {
                     const chk = document.getElementsByName(lst[i]);
@@ -260,3 +261,4 @@
           </div>
         </div>
 </body>
+</html>
