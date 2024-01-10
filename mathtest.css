@@ -1,6 +1,7 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+
 h1 {
-    color: darkslategrey;
-    font-family: 'Hahmlet', serif;
+    font-family: 'NanumSquare', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,8 +9,8 @@ h1 {
 }
 
 p {
-    color: purple;
-    font-family: 'Hahmlet', serif;
+    color: gray;
+    font-family: 'NanumSquare', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,9 +19,10 @@ p {
 button {
 
     background-color: blue;
+    font-family: 'NanumSquare', sans-serif;
 
     color: white;
-    font-size: 18pt;
+    font-size: 20pt;
 
     border: none;
 
